@@ -9,4 +9,13 @@ The resource is called like this:  http://yourwebsiteurl.ca/securelogin/index.ph
 
 This will present the patron with a login window, and upon successful authentication, redirect them to Ancestry. You will need to contact Proquest Support and let them know what URL the request will be coming from, they use the refferer URL to determine the library making the request. 
 
-It is entirely up to you, but i suggest that the code in the html folder be placed at the root of your site, and the private folder one below.  This prevents people from accessing your config.php file.
+It is entirely up to you, but i suggest that the code in the html folder be placed at the root of your site, and the private folder one below.  This prevents people from accessing your config.php file. Example
+
+<private folder>
+  Contents of private folder
+<root of your website>
+  sierrasecurelogin.php file
+  
+Your private folder is at the same level as the webroot, and not accessible from the public internet.
+
+Let me know if you have any questions.   chris [dot] jasztrab [at] beinspiredatmpl [dot] ca
